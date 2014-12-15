@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/hoisie/web"
-	"github.com/justinas/nosurf"
+	"gopkg.in/go-on/nosurf.v1"
 )
 
 var templateString = `

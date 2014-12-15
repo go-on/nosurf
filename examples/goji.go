@@ -9,7 +9,7 @@ import (
 	"github.com/zenazn/goji"
 	"github.com/zenazn/goji/web"
 
-	"github.com/justinas/nosurf"
+	"gopkg.in/go-on/nosurf.v1"
 )
 
 var templateString = `

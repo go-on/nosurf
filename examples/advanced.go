@@ -9,7 +9,7 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/justinas/nosurf"
+	"gopkg.in/go-on/nosurf.v1"
 )
 
 var templateString = `
